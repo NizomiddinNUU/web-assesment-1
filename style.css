@@ -44,7 +44,7 @@ a:hover:after{
 }
 
 .nav ul li:not(:last-child) {   
-    margin-right: 45px;
+    margin-right: 35px;
 }
 
 .nav ul li.first {
@@ -57,7 +57,7 @@ a:hover:after{
     width: 100%;
     height: 500px;
     display: flex;
-    padding-top: 130px;
+    padding-top: 120px;
 }
 
 .somewords{
@@ -76,11 +76,84 @@ a:hover:after{
     margin-left: 260px;
 }
 
-.btn{
-    border-radius: 20px;
-    background-color:hsl(222, 82%, 76%);;
-    font-style: initial;
-    width: 100px;
-    height: 40px;
-    font-size: 10px;
+.icon_link{
+    font-size: 25px;
+    color: hsl(222, 59%, 45%);
+}
+
+.all_icons{
+    display: flex;
+    gap: 15px;
+}
+
+.page_second {
+    padding-top: 140px;
+    background-color: hsl(222, 53%, 53%);
+    width: 100%;
+    height: 460px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.polaroid {
+    height: 325px;
+    width: 425px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text {
+    text-align: center;
+}
+
+.page_third{
+    width: 100%;
+    height: 700px;
+}
+
+.header_third{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.header_MindBox{
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+.project_photos1{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 40px;
+}
+
+.project_photos2{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 90px;
+}
+
+.last_page{
+    display: flex;
+    justify-content: right; 
+    gap: 500px;
+    width: 100%;
+    height: 200px;
+    background-color: hsl(222, 53%, 53%);
+}
+
+.address{
+    padding-top: 35px;
+    padding-left: 60px;
+}
+
+.location{
+    margin-right: 70px;
+    margin-top: 10px;
 }
